@@ -1,0 +1,45 @@
+body{
+    background-image: url(mn.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+h1{
+    padding:50px;
+    padding-top: 50px;
+    color: whitesmoke;
+     font-family: sans-serif;   
+     font-style: oblique;      
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+ color:lime;
+ border-radius: 50px;
+ border-style: inset;
+border-color: orangered;
+padding: 10px;
+background-color: black;
+font-style: italic;
+width: 50%;
+border-width: 20px;
+
+    }
+    h2{ margin-top:1em;
+        width: 50%;
+    }
+        quotes{
+    color: whitesmoke;
+    font-size: larger;
+    font-weight:bolder;
+    text-overflow: clip;
+    background-color:rgb(41,15,14);
+    padding: 15px;
+    border-radius: 15px;
+   
+}

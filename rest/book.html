@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING FORM</title>
+    <link rel="stylesheet" href="book.css">
+  <script src="book.js"> </script>
+      </head>
+<body> <br>
+  <a href="home.html" id="back">Back to Main page</a>
+    <h1>LEO COFFEE CHOCOLATE BAR LUXURY ROOM BOOKING</h1><br>
+    <form>
+       <b><center><h1>Personal details</h1>
+        <legend>Please fill the form to reserve your <strong>luxury rooms </strong></legend><br><br>
+              </center></b>
+               <fieldset>
+                <form name="myform" method="post" action="validate.php" onsubmit="return validateform()" >  
+                 Name:<input type="text" maxlength="20" name="name" required>  <br><br>
+                Gender:
+                <input type="radio" checked name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">N/A<br><br>
+                 Phone Number:<input type="text" name="phnumber" required><br><br>
+                Email:<input type="email" name="email" required><br><br>
+                Aadhar card number: <input type="text" name="aadhar"><br><br>
+                Did you want food while staying at that room?
+                <input type="radio" name="food" > YES <input type="RADIO">NO <br><br>
+                 How many people be with you?
+                <input type="number" name="people"><br><br>
+                D.O.B <input type="date" name="dob"  required> <br><br>
+                Address: <br>
+                <textarea rows="2" cols="20" name="address" required ></textarea><br><br>
+                 Please mention  your check in  date & time <br><br>
+                Time:<input type="time" name="t"  required>
+                Date:<input type="date" name="d"  required>  <br>  <br>                        
+               <p>Anything you want to add suggestion:(for eg: wifi,party,etc) <br><br>
+               <textarea rows="10" cols="30" name="sug"></textarea></p><br><br>
+               <center><input type="submit"></center>
+        
+                      </fieldset>
+                      </form>
+                      <div>
+     <h4>A/C Rooms Available!!!</h4>
+     <img src="double.jpg"width="250px"height="150px" title="A/C DOUBLE @ Rs.4000">
+  <img src="single.jpg" width="250px"height="150px" title="A/C SINGLE @ Rs.2000">
+   <h4>Non A/C Rooms Available!!!</h4>
+  <img src="nonacdouble.jpg"width="250px"height="150px" title="NON A/C DOUBLE @Rs.1500">
+  <img src="nonacsingle.jpg" width="250px"height="150px" title="NON A/C SINGLE @ Rs.1000"> <br><br>
+  <p>Check Your Room Price!!!</p>
+    <img src="double.jpg" width="80px"><label>A/C (DoubleRoom) @ just Rs.4000</label><label>Quantity: </label><input  type="number" id="acdouble" value="0"> <br>
+ <img src="single.jpg" width="80px"> <label>A/C (SingleRoom)@ just Rs.2000</label><label>Quantity: </label><input type="number" id="acsingle" value="0"> <br>
+ <img src="nonacdouble.jpg" width="80px"><label>Non A/C (doubleRoom)@ just Rs.1500</label><label>Quantity: </label><input type="number" id="nonacdouble" value="0"> <br>
+   <img src="nonacsingle.jpg" width="80px"><label>Non A/C(singleRoom)@ just Rs.1000</label><label>Quantity: </label><input type="number" id="nonacsingle" value="0">
+   
+   <br><br>
+   <button type="submit" id="submitButton">Submit</button>
+   
+   <p id="totalPrice"></p>
+   
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORDER</title> 
+ <link rel="stylesheet" href="order.css">
+<script src="order.js"> </script>
+</head><body> 
+  <a href="home.html" id="back">Back to Main page</a>
+  <div>    
+          <h1 id="leofont">LEO CHOCOLATE COFFEE BAR  </h1>
+          <h3 id="menu">Snacks@ just Rs.25</h3>
+          <h3 id="menu">Fast-food @ Rs.75</h3>
+          <h3 id="menu">Combo Offers @  199</h3>
+    
+            <table id="s"><tbody>
+         <tr> <th>Food image</th>
+      <th>Name & pcs</th>
+    <th>quantitiy</th></tr>    
+      <tr>
+     <td><img src="s.jpg" width="100px"height="100px" title="Samosa @ just Rs.25"></td>
+     <td><label>Samosa 4pcs </label></td>
+     <td> <input  type="number" id="samosa" value="0" min="1" max="10"> </td>
+      </tr>
+     <tr>
+     <td> <img src="pav.jpg" width="100px"height="100px" title="Pav Baji @ just Rs.25"></td>
+     <td><label>Pav Baji 1pc </label></td> 
+      <td> <input  type="number" id="pavbaji" value="0" min="1" max="10"></td> </tr>
+      
+        <td><img src="cof.jpg" width="100px"height="100px"title="Coffee @ just Rs.25"></td>
+      <td><label>Coffee 1pc </label></td> 
+        <td> <input  type="number" id="coffee" value="0" min="1" max="10"> </td> </tr>
+          <tr>
+        <td><img src="tea.jpg"width="100px"height="100px" title="Tandoori Tea @ just Rs.25"></td>
+      <td><label>Tandoori Tea 1pc</label></td> 
+        <td> <input  type="number" id="tea" value="0" min="1" max="10"></td> </tr>
+        <tr><th> </th></tr></tbody></table>
+          <table id="ca"><tbody>
+         <tr> <th >Food image</th>
+        <th>Name & pcs</th>
+      <th>quantitiy</th></tr>
+        <td><img src="siz.jpg" width="100px"height="100px" title=" Browny Sizzling @ Just Rs.75"></td>
+        <td><label>Browny Sizzling 1pc</label></td> 
+        <td> <input  type="number" id="browny" value="0" min="1" max="10"></td> </tr>
+        <tr>
+          <td><img src="bur.jpg" width="100px"height="100px" title="Burger @ Just Rs.75">
+      <td><label>Burger 1pc</label></td> 
+        <td> <input  type="number" id="burger" value="0" min="1" max="10" ></td> </tr>
+        <tr>
+          <tr>
+            <td> <img src="cone.jpg" width="100px"height="100px" title="Softies @ just Rs.75"></td>
+            <td><label>Softies 2 pcs </label></td>
+            <td> <input  type="number" id="soft" value="0" min="1" max="10"> </td></tr>
+             <tr>
+          <td><img src="p.jpg" width="100px"height="100px"title="Pizza @ Just Rs.75">
+            <td><label>Pizza i pc</label></td> 
+        <td> <input  type="number" id="pizza" value="0" min="1" max="10"></td> </tr>
+                    
+      </tbody></table>
+           <table id="co"><tbody>
+            <tr> <th>Food image</th>
+           <th>Name & pcs</th>
+         <th>quantitiy</th></tr> 
+          <!--combo1 = pizza combo2 = burger combo3 = grill combo4 = tandoori-->
+              <tr>
+            <td><img src="piz.jpg" width="100px"height="100px" title="Pizza Combo @ Just Rs.199">
+            <td><label>Pizza Combo </label></td> 
+            <td> <input  type="number" id="combo1" value="0" min="1" max="10"></td> </tr>
+            <td><img src="com.jpg" width="100px"height="100px" title="Burger Combo @ Just Rs.199"></td>
+            <td><label>Burger Combo</label></td> 
+          <td> <input  type="number" id="combo2" value="0" min="1" max="10"></td> </tr>
+          <tr>
+      <td><img src="gr.jpg"width="100px"height="100px"title=" Grill combo @ Just  Rs.199"></td>
+      <td><label>Grill combo</label></td> 
+          <td> <input  type="number" id="combo3" value="0" min="1" max="10"></td> </tr>
+          <td><img src="tan.jpg" width="100px"height="100px" title="Tandoori Combo @ Just  Rs.199"></td>
+          <td><label>Tandoori Combo </label></td> 
+          <td> <input  type="number" id="combo4" value="0" min="1" max="10"></td> </tr></tr>
+                 
+                  </tbody></table> <br><br>
+                  <center><button type="submit" id="submit">Submit</button>
+   
+                    <p id="totalPrice"></p></center></div>
+ 
+    </body>
+</html>

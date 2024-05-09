@@ -1,0 +1,66 @@
+
+        body{
+            margin:0;
+            display:block;
+            padding: 0;
+        }
+    table,tbody{
+       border-style: dashed;
+        border-color: blue;
+        width:1000px;
+        height:500px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid white;
+      background-image:url(me.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+        th{
+            margin: auto;
+          
+            width:100px;
+            height:100px;
+             color: white;
+            font-style: initial;
+            font-weight:900;
+            margin: auto;
+            padding:5px;
+           
+            width:70px;
+            height:50px;
+            text-align: center;
+            padding: 15px;
+        }
+        th:hover{
+            background-color: blueviolet;
+            color: coral;
+        }
+        #ord{
+           color:whitesmoke;
+            border-radius: 10px;
+            border-color:brown;
+            border-style: double;
+            width:80px;
+            text-align: center;
+            margin:auto;
+            padding: 5px;
+            outline-offset: 5px;
+          
+        }
+        #ord:hover{
+            background-color: aliceblue;
+            color:red;
+        }
+        img:hover{
+            border-style:double;
+            transition: 0.2ms;
+        }
+       td{
+        text-align: center;
+      
+        color:rgb(248, 245, 246);
+       }
+       
+
+   
